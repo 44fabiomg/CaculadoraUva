@@ -22,14 +22,14 @@
         android:layout_width="match_parent"
         android:layout_height="135dp"
         android:hint="Insira a nota A2"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal" />
 
     <EditText
         android:id="@+id/notaA3"
         android:layout_width="match_parent"
         android:layout_height="105dp"
         android:hint="Insira a nota A3"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/calcularButton"
@@ -45,8 +45,15 @@
         android:layout_height="99dp"
         android:paddingTop="16dp"
         android:text=""
-        android:textSize="30sp"
-        android:textColor="@color/colorAccent"/>
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
 
-    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:text="By:Fabio Reis" />
+
+
+</LinearLayout>
 
